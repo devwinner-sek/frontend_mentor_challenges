@@ -1,0 +1,79 @@
+body
+{
+  background: #d5e1ef;
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+/* QR code div bloc container_content*/
+.container_content
+{
+  background-color: white;
+  position: relative;
+  width: 320px;
+  height: 497px;
+  /* left: 560px; */
+  /* right: 560px; */
+  /* top: 152px; */
+  /* bottom: 151px; */
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+.qrcode_style
+{
+  width: 288px;
+  height: 288px;
+  border-radius: 12px;
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 15px;
+}
+
+.qrcode_img
+{
+  position:absolute; 
+  width: 288px;
+  height: 288px;
+  padding: 0.5em;
+  border-radius: 14px;
+
+}
+
+.improve_content
+{
+  position:absolute; 
+  width: 288px;
+  height:  8px;
+  top:  292px;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  padding: 12px;
+
+}
+
+.title_style_improve
+{ 
+   font-weight: bold;
+   color: rgb(62,62,62);
+}
+
+.description_style
+{
+  color: rgb(162,162,162);
+  margin-left: 8px;
+  margin-right: 8px;
+  text-align: center;
+  text-justify: inter-word;
+  font-size: 18px;
+}
